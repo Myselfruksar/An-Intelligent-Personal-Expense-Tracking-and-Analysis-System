@@ -1,0 +1,17 @@
+const router = require("express").Router();
+
+const { auth } = require("../middleware/authMiddleware");
+
+const {
+  getProfile,
+  updateProfile,
+  changePassword,
+} = require("../controllers/userController");
+
+router.get("/profile", auth, getProfile);
+
+router.put("/update-profile", auth, updateProfile);
+
+router.put("/change-password", auth, changePassword);
+
+module.exports = router;

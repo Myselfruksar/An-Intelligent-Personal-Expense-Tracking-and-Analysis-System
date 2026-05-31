@@ -1,0 +1,36 @@
+exports.emailVerifyTemplate = (otp) => {
+
+    return `
+    
+    <div
+      style="
+        font-family: Arial;
+        padding: 20px;
+      "
+    >
+
+      <h2>
+        ExpenseAI Verification
+      </h2>
+
+      <p>
+        Your OTP is:
+      </p>
+
+      <h1
+        style="
+          letter-spacing: 4px;
+        "
+      >
+        ${otp}
+      </h1>
+
+      <p>
+        OTP valid for 10 minutes.
+      </p>
+
+    </div>
+
+    `;
+
+};
