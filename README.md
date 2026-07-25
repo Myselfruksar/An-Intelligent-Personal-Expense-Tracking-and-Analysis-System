@@ -4,21 +4,6 @@ An AI-powered personal expense tracking and financial analysis platform built wi
 
 ---
 
-# ✨ Features
-
-- 🔐 Secure Authentication (JWT)
-- 📧 Email OTP Verification
-- 🔑 Forgot Password via Email OTP
-- 💸 Expense Management
-- 📊 Analytics Dashboard
-- 📈 Charts & Reports
-- 🤖 AI Financial Insights
-- 🎯 Budget Tracking
-- 👤 User Profile Management
-- 🌙 Modern Responsive UI
-
----
-
 # 🚀 Demo Account
 
 If you only want to explore the application, use the demo account below.
